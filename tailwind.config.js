@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         "black-semi": "#1C1C1C",
         "gray-primary": "rgba(28, 28, 28, 0.5)",
+      },
+      borderWidth: {
+        "1": "1px",
       }
     },
     container: {
