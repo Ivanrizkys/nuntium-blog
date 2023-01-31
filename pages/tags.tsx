@@ -1,20 +1,25 @@
+import { NextPage } from 'next' 
+import tags from '@/dummy/tags'
 import Layout from '@/components/atoms/Layout'
 import MainSearch from '@/components/atoms/MainSearch'
-import tags from '@/dummy/tags'
-import { NextPage } from 'next'
+import ListArticle from '@/components/organism/ListArticle'
 
 const Tags: NextPage = () => {
   return (
     <Layout>
       <div className="mt-[194px] flex flex-col items-center">
         <MainSearch />
-        <div className="mt-[59px] flex flex-wrap justify-center gap-y-6 gap-x-[15px]">
-          {tags.map((tag) => (
-            <button className="rounded-[50px] border-1 border-solid border-black py-[10px] px-[25px] font-libre text-base text-black">
-              #{tag.toLowerCase().replaceAll(" ", "")}
+        <div className="mt-[59px] w-11/12 md:w-full flex flex-wrap justify-center gap-y-6 gap-x-[15px] md:p-3">
+          {tags.map((tag, index) => (
+            <button
+              key={index}
+              className="rounded-[50px] border-1 border-solid border-black py-[8px] sm:py-[10px] px-[23px] sm:px-[25px] font-libre text-sm sm:text-base text-black"
+            >
+              #{tag.toLowerCase().replaceAll(' ', '')}
             </button>
           ))}
         </div>
+        <ListArticle />
       </div>
     </Layout>
   )

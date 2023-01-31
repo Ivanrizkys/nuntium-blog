@@ -1,4 +1,4 @@
-import WideCard from '@/components/molecules/SecondaryCard'
+import SecondaryCard from '@/components/molecules/SecondaryCard'
 import tags from '@/dummy/tags'
 import ohterCard from '@/dummy/other_card'
 
@@ -24,7 +24,7 @@ const OtherPostSection = () => {
         <div className="flex w-11/12 flex-col gap-y-16 sm:w-8/12">
           {ohterCard.map((data, index) => {
             return (
-              <WideCard
+              <SecondaryCard
                 key={index}
                 author={data.author}
                 category={data.category}

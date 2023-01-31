@@ -2,7 +2,7 @@ import Search from 'public/assets/Search'
 
 const MainSearch = () => {
   return (
-    <div className="relative w-full max-w-[707px]">
+    <div className="relative lg:w-full w-8/12 lg:max-w-[707px]">
       <input
         type="text"
         placeholder="Find the topics you care about..."
