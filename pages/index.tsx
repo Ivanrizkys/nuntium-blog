@@ -10,7 +10,6 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<Layout>
-				<Navbar />
 				<FirstFeaturePost />
 				<PostRecomendation />
 				<SecondFeaturePost />
