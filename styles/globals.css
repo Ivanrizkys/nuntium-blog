@@ -21,10 +21,7 @@ body {
     height: 10px;
 	background: linear-gradient(black,black);
 }
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-	background: linear-gradient(transparent, hsl(27, 90%, 62%));
-}
+
 .fourth-line-check {
 	transform: rotate(-45deg) translate(-1px, 0);
 }
