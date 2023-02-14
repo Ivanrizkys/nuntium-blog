@@ -15,7 +15,7 @@ const Tags: NextPage = () => {
               key={index}
               className="rounded-[50px] border-1 border-solid border-black py-[8px] sm:py-[10px] px-[23px] sm:px-[25px] font-libre text-sm sm:text-base text-black"
             >
-              #{tag?.toLowerCase().replaceAll(' ', '')}
+              #{tag?.toLowerCase().split(" ").join("")}
             </button>
           ))}
         </div>
