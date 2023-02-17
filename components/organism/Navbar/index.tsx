@@ -14,9 +14,11 @@ const Navbar = () => {
     <nav className="top-0 mt-5 w-full max-w-[1316px] bg-white">
       <div className="flex justify-between font-libre">
         <div className="sm flex items-center">
-          <h5 className="z-20 cursor-pointer text-2xl font-bold text-black-semi sm:mr-8 md:text-3xl">
-            <span className="bg-black pt-4 pl-4 text-white">Nu</span>ntium
-          </h5>
+          <Link href="/">
+            <h5 className="z-20 cursor-pointer text-2xl font-bold text-black-semi sm:mr-8 md:text-3xl">
+              <span className="bg-black pt-4 pl-4 text-white">Nu</span>ntium
+            </h5>
+          </Link>
           <ul className="hidden gap-8 text-lg sm:flex md:text-xl">
             <li className={router.pathname === "/" ? "font-bold" : "font-normal"}>
               <Link href="/">Home</Link>
