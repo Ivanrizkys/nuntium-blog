@@ -13,6 +13,7 @@ const ListArticle = () => {
           image={data.image}
           preview={data.preview}
           title={data.title}
+          slug={data.slug}
         />
       ))}
     </div>

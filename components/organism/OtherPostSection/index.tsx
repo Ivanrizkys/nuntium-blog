@@ -32,6 +32,7 @@ const OtherPostSection = () => {
                 image={data.image}
                 preview={data.preview}
                 title={data.title}
+                slug={data.slug}
               />
             )
           })}

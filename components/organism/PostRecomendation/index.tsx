@@ -20,6 +20,7 @@ const PostRecomendation = () => {
               preview={data.preview}
               time_read={data.time_read}
               title={data.title}
+              slug={data.slug}
             />
           )
         })}
