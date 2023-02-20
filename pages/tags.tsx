@@ -3,6 +3,7 @@ import tags from '@/dummy/tags'
 import Layout from '@/components/atoms/Layout'
 import MainSearch from '@/components/atoms/MainSearch'
 import ListArticle from '@/components/organism/ListArticle'
+import BottomSpace from '@/components/atoms/BottomSpace'
 
 const Tags: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Tags: NextPage = () => {
         </div>
         <ListArticle />
       </div>
+      <BottomSpace />
     </Layout>
   )
 }

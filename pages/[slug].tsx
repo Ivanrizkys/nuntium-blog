@@ -1,3 +1,4 @@
+import BottomSpace from '@/components/atoms/BottomSpace'
 import Layout from '@/components/atoms/Layout'
 import ContentArticle from '@/components/organism/ContentArticle'
 import Image from 'next/image'
@@ -14,6 +15,7 @@ const ArticleDetail = () => {
         />
       </div>
       <ContentArticle />
+      <BottomSpace />
     </Layout>
   )
 }

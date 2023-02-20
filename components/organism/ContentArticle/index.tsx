@@ -16,7 +16,7 @@ const ContentArticle = () => {
           <p>#career</p>
         </div>
       </div>
-      <div className="mt-[26px] text-sm sm:text-base mb-5">
+      <div className="mt-[26px] text-sm sm:text-base">
         <p>
           Commodo labore ut nisi laborum amet eu qui magna ullamco ut labore.
           Aliquip consectetur labore consectetur dolor exercitation est minim
