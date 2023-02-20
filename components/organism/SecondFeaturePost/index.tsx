@@ -2,7 +2,7 @@ const SecondFeaturePost = () => {
   return (
     <div
       className="mt-16 flex h-[592px] w-full justify-end bg-cover pl-11 font-open-sans sm:px-11 lg:px-20 lg:py-[55px] lg:pt-[54px]"
-      style={{ backgroundImage: 'url(/image/second-feature-image.png)' }}
+      style={{ backgroundImage: 'url(/image/second-feature-image.webp)' }}
     >
       <div className="h-[483px] w-full max-w-[509px] cursor-pointer bg-white px-10">
         <p className="pt-4 text-xl text-gray-primary sm:pt-[76px]">INTERIOR</p>

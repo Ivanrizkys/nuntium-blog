@@ -11,7 +11,7 @@ let ohterCard: OhterCardType[]
 
 ohterCard = [
     {
-        image: "/image/other-post-1.png",
+        image: "/image/other-post-1.webp",
         category: "NATURE",
         title: "Tempor deserunt Sunt Qui",
         author: "Connie Robertson",
@@ -19,7 +19,7 @@ ohterCard = [
         preview: "Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla tempor aute reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure."
     },
     {
-        image: "/image/other-post-2.png",
+        image: "/image/other-post-2.webp",
         category: "PLANTS",
         title: "Occaecat Anim eu Qui",
         author: "Eleanor Williamson",
@@ -27,7 +27,7 @@ ohterCard = [
         preview: "Qui ipsum consectetur ad incididunt et aliquip exercitation laboris nisi reprehenderit. Et excepteur commodo esse enim ea aliqua officia reprehenderit."
     },
     {
-        image: "/image/other-post-3.png",
+        image: "/image/other-post-3.webp",
         category: "FOOD",
         title: "Fugiat Incididunt Voluptate Consequat",
         author: "Bessie Watson",
@@ -35,7 +35,7 @@ ohterCard = [
         preview: "Mollit ea culpa ipsum pariatur eiusmod. Irure et."
     },
     {
-        image: "/image/other-post-4.png",
+        image: "/image/other-post-4.webp",
         category: "COLORFUL",
         title: "Occaecat Anim eu Qui",
         author: "Ted Simmmons",

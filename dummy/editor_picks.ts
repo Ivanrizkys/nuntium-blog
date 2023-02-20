@@ -11,7 +11,7 @@ interface EditorPickType {
 let editorPicks: EditorPickType[]
 editorPicks = [
     {
-        image: "/image/editor-pick-1.png",
+        image: "/image/editor-pick-1.webp",
         category: "MINIMALISM",
         title: "Culpa sit Laboris Exercitation ea Fugiat",
         author: "Leslie Pena",
@@ -20,7 +20,7 @@ editorPicks = [
         preview: "Incididunt occaecat et qui dolore consectetur magna. Lorem veniam ut et labore consequat ut ex sunt. Ut et nostrud aliquip do anim proident ad nulla consectetur eu aute ex anim mollit. Anim aute exercitation nisi fugiat. Dolor velit excepteur commodo proident nulla commodo ullamco labore et esse."
     },
     {
-        image: "/image/editor-pick-2.png",
+        image: "/image/editor-pick-2.webp",
         category: "TECHNOLOGY",
         title: "Amet non Ex Officia nulla Cupidatat",
         author: "Jacob Henry",
@@ -29,7 +29,7 @@ editorPicks = [
         preview: "Sint anim Lorem aute duis Lorem incididunt. Nulla nostrud irure id ipsum aute excepteur duis sint. Do occaecat sit dolor magna esse. Mollit incididunt cillum consectetur fugiat adipisicing dolor est id minim amet cillum esse Lorem. Deserunt non duis excepteur aliqua duis eu reprehenderit."
     },
     {
-        image: "/image/editor-pick-3.png",
+        image: "/image/editor-pick-3.webp",
         category: "ARTICLE",
         title: "Dolor ex Tempor Cotur Culpa li",
         author: "Darrell Lane",

@@ -9,7 +9,7 @@ const ArticleDetail = () => {
         <Image
           fill
           alt="article-detail-image"
-          src={'/image/first-feature-image.png'}
+          src={'/image/first-feature-image.webp'}
           style={{ objectFit: 'cover' }}
         />
       </div>

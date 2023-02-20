@@ -2,7 +2,7 @@ const FirstFeaturePost = () => {
   return (
     <div
       className="mt-11 h-[550px] w-full bg-cover pr-11 font-open-sans sm:h-[592px] sm:px-11"
-      style={{ backgroundImage: 'url(/image/first-feature-image.png)' }}
+      style={{ backgroundImage: 'url(/image/first-feature-image.webp)' }}
     >
       <div className="h-[483px] max-w-[509px] cursor-pointer bg-white px-5 sm:px-10">
         <p className="pt-4 text-xl text-gray-primary sm:pt-[76px]">
