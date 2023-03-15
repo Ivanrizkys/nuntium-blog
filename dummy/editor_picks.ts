@@ -9,8 +9,7 @@ interface EditorPickType {
   slug: string
 }
 
-let editorPicks: EditorPickType[]
-editorPicks = [
+const editorPicks: EditorPickType[] = [
   {
     image: '/image/editor-pick-1.webp',
     category: 'MINIMALISM',

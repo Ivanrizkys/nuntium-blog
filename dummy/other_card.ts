@@ -8,9 +8,7 @@ interface OhterCardType {
   slug: string
 }
 
-let ohterCard: OhterCardType[]
-
-ohterCard = [
+const ohterCard: OhterCardType[] = [
   {
     image: '/image/other-post-1.webp',
     category: 'NATURE',

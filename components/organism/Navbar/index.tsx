@@ -32,7 +32,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="hidden items-center sm:flex">
-          <div className="flex items-center py-2 px-2 rounded-[10px] focus-within:outline-2 focus-within:outline focus-within:outline-black gap-1">
+          <div className="flex items-center py-2 lg:px-2 rounded-[10px] focus-within:outline-2 focus-within:outline focus-within:outline-black gap-1">
             <input ref={inputRef} className="outline-none" type="text" />
             <button onClick={() => inputRef.current?.focus()}>
               <Search />
