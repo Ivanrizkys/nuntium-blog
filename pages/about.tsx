@@ -4,11 +4,11 @@ import Instagram from 'public/assets/Instagram'
 import LinkedIn from 'public/assets/LinkedIn'
 import Twiter from 'public/assets/Twiter'
 
-const About = () => {
+const About = () => {  
   return (
     <Layout>
       <div className="mt-52 text-center">
-        <h5 className="z-20 text-2xl font-bold text-black-semi sm:mr-8 md:text-4xl">
+        <h5 className="z-20 text-2xl font-bold text-black-semi `sm:mr-8 md:text-4xl">
           <span className="bg-black pt-4 pl-4 text-white">Nu</span>ntium
         </h5>
         <p className="text-black text-xl mt-6 w-full max-w-[370px] mx-auto">A publishing company that focuses on the essentials.</p>

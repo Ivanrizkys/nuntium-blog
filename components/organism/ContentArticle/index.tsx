@@ -2,7 +2,7 @@ const ContentArticle = () => {
   return (
     <div className="mx-auto mt-[54px] w-full max-w-[790px] font-open-sans text-black px-4">
       <div className="text-center">
-        <h2 className="font-libre text-4xl sm:text-[42px] font-bold">
+        <h2 className="font-libre text-2xl sm:text-3xl lg:text-4xl sm:text-[42px] font-bold">
           The World’s Most Dangerous Technology Ever Made.
         </h2>
         <div className="mt-[17px] flex items-center justify-center gap-[10px] text-sm sm:text-base text-[#1c1c1c80]">
